@@ -1,35 +1,35 @@
 {
-  "name": "src",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "typescript": "^3.7.4"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "@babel/preset-react": "^7.8.3",
-    "@babel/preset-typescript": "^7.8.3",
-    "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
-    "@typescript-eslint/eslint-plugin": "^2.16.0",
-    "@typescript-eslint/parser": "^2.16.0",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.8.0",
-    "html-webpack-plugin": "^3.2.0",
-    "ts-loader": "^6.2.1",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
-  },
-  "scripts": {
-    "tsinit": "tsc --init",
-    "start": "webpack-dev-server --env=dev --profile --colors",
-    "lint": "eslint 'src/**/*.ts'"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "src",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "typescript": "^3.7.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.3",
+        "@babel/preset-env": "^7.8.3",
+        "@babel/preset-react": "^7.8.3",
+        "@babel/preset-typescript": "^7.8.3",
+        "@types/react": "^16.9.17",
+        "@types/react-dom": "^16.9.4",
+        "@typescript-eslint/eslint-plugin": "^2.16.0",
+        "@typescript-eslint/parser": "^2.16.0",
+        "babel-loader": "^8.0.6",
+        "eslint": "^6.8.0",
+        "html-webpack-plugin": "^3.2.0",
+        "ts-loader": "^6.2.1",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.1"
+    },
+    "scripts": {
+        "tsinit": "tsc --init",
+        "start": "webpack-dev-server --env=dev --profile --colors",
+        "lint": "eslint 'src/**/*.tsx'"
+    },
+    "author": "",
+    "license": "ISC"
 }
