@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -29,4 +30,4 @@ module.exports = {
             template: 'public/index_dev.html',
         }),
     ],
-}
+};

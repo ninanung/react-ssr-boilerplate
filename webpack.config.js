@@ -1,3 +1,4 @@
 module.exports = function(env) {
-    return require(`./webpack.${env}.js`);
-}
+    if (env === 'dev') return require('./webpack.dev');
+    return require('./webpack.dev');
+};
