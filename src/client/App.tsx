@@ -1,15 +1,22 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
 import Helmet from "react-helmet";
 
-import Home from "./pages/Home";
-import News from "./pages/News";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Router from "./Router";
 
 class App extends React.Component {
     render() {
-        return <div>App</div>;
+        return (
+            <div>
+                <Helmet>
+                    <title>App</title>
+                </Helmet>
+                <Header />
+                <Router />
+                <Footer />
+            </div>
+        );
     }
 }
 
